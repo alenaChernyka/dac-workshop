@@ -33,7 +33,8 @@ nav:
       - study-notes/2-webinar-notes.md
       - study-notes/3-webinar-notes.md
   - Работы:
-      - assignments/alena.chernyka-instruction.md
+      - assignments/telegram-instruction.md
+      - assignments/obsidian-instruction.md
   - Полезные материалы:
       - resources/mkdocs-yml.md
       - resources/markdown.md
