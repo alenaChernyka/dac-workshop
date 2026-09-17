@@ -1,0 +1,57 @@
+
+site_name: Мастер-класс по docs-as-code # Название сайта
+site_description: Мои материалы для мастер-класса по docs-as-code # Описание сайта, добавляется в meta-теги
+theme: # Тема сайта, информация о ее параметрах
+  name: material # Название темы
+  logo: images/logo.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
+  font:
+    text: Roboto # Шрифт текста
+    code: Roboto Mono # Шрифт для текста кода
+  language: ru # Язык
+  palette: # Настройки светлой и тёмной тем
+    # Настройки светлой темы
+    - scheme: default 
+
+features: # настройки функциональностей темы
+    - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
+    - navigation.path # Хлебные крошки
+    - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
+    - navigation.tabs # Верхнее меню
+    - navigation.tabs.sticky # Фиксация верхнего меню
+    - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
+    - toc.integrate # Фиксирует оглавление страницы в левом меню
+    - navigation.instant # Функция быстрой загрузки страниц
+    - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
+    - search.suggest # Подсказки при вводе поискового запроса
+    - search.highlight # Подсветка результатов поиска в тексте страницы
+    - content.code.copy # Кнопка копирования в блоке кода
+
+nav:
+  - Главная: index.md
+  - Конспекты:
+      - study-notes/1-webinar-notes.md
+      - study-notes/2-webinar-notes.md
+      - study-notes/3-webinar-notes.md
+  - Работы:
+      - assignments/alena.chernyka-instruction.md
+  - Полезные материалы:
+      - resources/mkdocs-yml.md
+      - resources/markdown.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.mark
+  - pymdownx.caret
+
+extra_css:
+  - stylesheets/extra.css
