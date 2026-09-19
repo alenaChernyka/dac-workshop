@@ -11,27 +11,27 @@
 
 1. Прописать в yml файле.
 
-```yaml
-plugins:
-	search
-	tags:
-		tags_allowed:
-		- портфолио
-		- manuals
-		- rules
-		- helps
-		   
-```
+    ```yaml
+    plugins:
+        search
+        tags:
+            tags_allowed:
+            - портфолио
+            - manuals
+            - rules
+            - helps
+            
+    ```
 
 2. Добавить тег (над заголовком).
 
-```
----
-tags:
-	- портфолио
-	- manuals
----
-```
+    ```
+    ---
+    tags:
+        - портфолио
+        - manuals
+    ---
+    ```
 
 3. Добавить страницы с тегами:
 
