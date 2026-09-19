@@ -36,7 +36,7 @@ nav:
   - Работы:
       - assignments/telegram-instruction.md
       - assignments/obsidian-instruction.md
-      - assignments/use-case.md.md
+      - assignments/use-case.md
   - Полезные материалы:
       - resources/mkdocs-yml.md
       - resources/markdown.md
