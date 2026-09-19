@@ -1,4 +1,4 @@
-# SSG и настройка CI/CD  CI/CD  
+# SSG и настройка CI/CD
 
 ## Плагины для mkdocs 
 
@@ -57,23 +57,23 @@ tags:
 
 1. Скачать внешний плагин.
 
-```bash
-pip install mkdocs-glightbox
-```
+    ```bash
+    pip install mkdocs-glightbox
+    ```
 
 2. Прописать в плагинах.
 
-```yaml
-plugins:
-	search
-	tags:
-		tags_allowed:
-		- портфолио
-		- manuals
-		- rules
-		- helps
-	glightbox	   
-```
+    ```yaml
+    plugins:
+        search
+        tags:
+            tags_allowed:
+            - портфолио
+            - manuals
+            - rules
+            - helps
+        glightbox	   
+    ```
 
 ## Публикация
 
