@@ -61,6 +61,8 @@ plugins:
   - search
   - glightbox
   - swagger-ui-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
 
 extra_css:
   - stylesheets/extra.css
