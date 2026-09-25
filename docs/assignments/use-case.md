@@ -63,7 +63,7 @@
 
 ## Диаграмма последовательности
 
-```plantuml
+```puml
 
 @startuml
 actor Пользователь as user
