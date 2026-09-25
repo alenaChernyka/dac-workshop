@@ -37,7 +37,7 @@ nav:
       - assignments/telegram-instruction.md
       - assignments/obsidian-instruction.md
       - assignments/use-case.md
-      - API-дока: assignments/api-doc.md
+      - API-документация: assignments/api-doc.md
   - Полезные материалы:
       - resources/mkdocs-yml.md
       - resources/markdown.md
