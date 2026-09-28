@@ -56,6 +56,7 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.mark
   - pymdownx.caret
+  - pymdownx.snippets
 
 plugins:
   - search
