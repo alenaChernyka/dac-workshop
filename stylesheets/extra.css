@@ -1,0 +1,73 @@
+
+[data-md-color-scheme="my-scheme"] {
+  --md-primary-fg-color: #ffffff; /* Белая шапка */
+  --md-primary-fg-color--dark: #f8f9fa; /* Светлый фон шапки при скролле/фокусе */
+  --md-primary-bg-color: #282828;        /* Цвет текста, иконок и поиска в шапке */
+  --md-accent-fg-color: #6133d2; /* Зеленый акцент (для плашек, кнопок, выделений) */
+  --md-typeset-a-color: #6133d2; /* Ссылки теперь привычного фиолетового цвета */
+  --md-default-bg-color: #fcfdfe; /* Чистый нейтральный фон */
+  --md-default-fg-color: #282828; /* Основной текст */
+  --md-code-bg-color: #e5e5e5; /* Мягкий фон для кода */
+  --md-code-fg-color: #5c5b5b; /* Текст кода */
+  --md-default-fg-color--light: #282828; /* Заголовки */
+  --md-footer-bg-color: #1a192b; /* Темный глубокий футер в тон фиолетовому */
+}
+
+.md-header {
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(40, 40, 40, 0.12);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.md-tabs__item--active {
+  border-bottom: none;
+}
+
+.md-tabs__item--active .md-tabs__link {
+  position: relative;
+}
+
+.md-tabs__item--active {
+  border-bottom: 2px solid #6133d2;
+  padding-bottom: 1px;
+}
+
+.md-search__form {
+  background-color: #e5e5e5;
+}
+
+.md-search__form:hover {
+  background-color: #c9c9c9;
+}
+
+.md-search__input {
+  color: #282828;
+}
+
+.md-search__input::placeholder {
+  color: #5c5b5b;
+}
+
+.md-nav__title {
+  font-size: 20px;
+}
+
+.md-sidebar--primary .md-nav__item > label .md-ellipsis {
+  font-size: 20px;
+}
+
+.md-typeset .admonition.note,
+.md-typeset details.note {
+    border-color: #6133d2;
+}
+
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset details.note > summary {
+    background-color: rgba(97, 51, 210, 0.1);
+}
+
+.md-typeset .admonition.note .admonition-title::before,
+.md-typeset details.note summary::before {
+    background-color: #008c56;
+}
