@@ -1,31 +1,31 @@
-
 site_name: Мастер-класс по docs-as-code # Название сайта
 site_description: Мои материалы для мастер-класса по docs-as-code # Описание сайта, добавляется в meta-теги
-theme: # Тема сайта, информация о ее параметрах
-  name: material # Название темы
+
+theme:
+  name: material
   features:
   - navigation.tabs
-  logo: images/logo.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
+  logo: images/logo.png
   font:
     text: Roboto
     code: Roboto Mono
-  language: ru # Язык
-  palette: # Настройки светлой и тёмной тем
+  language: ru
+  palette:
     - scheme: my-scheme
 
-features: # настройки функциональностей темы
-    - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
-    - navigation.path # Хлебные крошки
-    - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
-    - navigation.tabs # Верхнее меню
-    - navigation.tabs.sticky # Фиксация верхнего меню
-    - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
-    - toc.integrate # Фиксирует оглавление страницы в левом меню
-    - navigation.instant # Функция быстрой загрузки страниц
-    - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
-    - search.suggest # Подсказки при вводе поискового запроса
-    - search.highlight # Подсветка результатов поиска в тексте страницы
-    - content.code.copy # Кнопка копирования в блоке кода
+features:
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - toc.integrate
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 
 nav:
   - Главная: index.md
