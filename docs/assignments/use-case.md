@@ -72,7 +72,6 @@ actor Пользователь as user
 participant Приложение as client
 participant Бэк as server
 database "База данных" as db
-@enduml
 
 user -> client: Нажимает на заметку
 user <-- client: Открывает форму редактирования заметки
@@ -100,4 +99,5 @@ user <-- client: Открывает окно с выбором из двух в�
 user -> client: Нажимает "Нет"
 user <-- client: Закрывает окно с выбором
 end alt
+@enduml
 ```

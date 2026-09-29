@@ -3,14 +3,15 @@ site_name: Мастер-класс по docs-as-code # Название сайт
 site_description: Мои материалы для мастер-класса по docs-as-code # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
+  features:
+  - navigation.tabs
   logo: images/logo.png # Ссылка на логотип сайта, логотип добавляется в папку `docs/images`
   font:
-    text: Roboto # Шрифт текста
-    code: Roboto Mono # Шрифт для текста кода
+    text: Roboto
+    code: Roboto Mono
   language: ru # Язык
   palette: # Настройки светлой и тёмной тем
-    # Настройки светлой темы
-    - scheme: default 
+    - scheme: my-scheme
 
 features: # настройки функциональностей темы
     - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
@@ -33,6 +34,7 @@ nav:
       - study-notes/2-webinar-notes.md
       - study-notes/3-webinar-notes.md
       - study-notes/4-webinar-notes.md
+      - study-notes/5-webinar-notes.md
   - Работы:
       - assignments/telegram-instruction.md
       - assignments/obsidian-instruction.md
@@ -64,6 +66,8 @@ plugins:
   - swagger-ui-tag
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: false
 
 extra_css:
   - stylesheets/extra.css
